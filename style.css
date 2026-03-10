@@ -93,3 +93,60 @@ h1 {
     background-color: var(--text-color);
     color: var(--bg-color);
 }
+
+.contact-section {
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--text-color);
+    opacity: 0.2;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--button-bg);
+}
+
+.contact-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+#submit-btn {
+    background-color: var(--button-bg);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: var(--button-hover);
+}
