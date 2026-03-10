@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application is a simple, user-friendly lottery number generator. It provides a clean, interactive interface for users to generate random lottery numbers. The design is modern, visually appealing, and responsive, ensuring a great experience on both desktop and mobile devices.
+This application is a simple, user-friendly lottery number generator. It provides a clean, interactive interface for users to generate random lottery numbers. The design is modern, visually appealing, and responsive, ensuring a great experience on both desktop and mobile devices. Now with Dark/Light mode support.
 
 ## Project Outline
 
@@ -26,8 +26,15 @@ This application is a simple, user-friendly lottery number generator. It provide
     *   A function to create and display the lottery ball elements in the UI.
     *   A function to assign colors to the balls based on their number.
 
+### Version 1.1: Dark Mode Support
+
+*   **Theme Toggle:** Added a button to switch between Dark and Light modes.
+*   **CSS Variables:** Introduced CSS variables for consistent theme management.
+*   **Persistence:** Theme preference is saved in `localStorage` to persist across page reloads.
+
 ## Current Plan
 
-*   Create the basic HTML structure for the lottery number generator.
-*   Implement the JavaScript logic to generate and display the numbers.
-*   Apply modern and responsive CSS to style the application.
+- [x] Create the basic HTML structure for the lottery number generator.
+- [x] Implement the JavaScript logic to generate and display the numbers.
+- [x] Apply modern and responsive CSS to style the application.
+- [x] Add Dark/Light mode theme toggle.
